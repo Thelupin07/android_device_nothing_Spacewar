@@ -6,3 +6,8 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_Spacewar.mk
+
+COMMON_LUNCH_CHOICES := \
+    derp_Spacewar-eng \
+    derp_Spacewar-userdebug \
+    derp_Spacewar-user

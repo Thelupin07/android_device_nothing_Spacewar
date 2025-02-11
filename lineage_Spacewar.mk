@@ -30,3 +30,12 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=Spacewar \
     BuildDesc="Spacewar-user 12 SKQ1.211230.001 1666412462 release-keys" \
     BuildFingerprint="Nothing/Spacewar/Spacewar:12/SKQ1.211230.001/1666412462:user/release-keys"
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
+TARGET_HAS_UDFPS := true
+EVO_BUILD_TYPE := Official
+TARGET_DISABLE_EPPE := true
+
